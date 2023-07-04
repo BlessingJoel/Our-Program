@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test 2(failed)">
+    <classes>
+      <class name="EludeWeb.UserListPage">
+        <methods>
+          <include name="AddAdmin"/>
+          <include name="Close"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- EludeWeb.UserListPage -->
+    </classes>
+  </test> <!-- Test 2(failed) -->
+  <test thread-count="5" name="Test 5(failed)">
+    <classes>
+      <class name="EludeWeb.MenuBarPage">
+        <methods>
+          <include name="Closed"/>
+          <include name="LogOut"/>
+          <include name="SetOrg"/>
+          <include name="OpenBroswer"/>
+          <include name="Profile"/>
+        </methods>
+      </class> <!-- EludeWeb.MenuBarPage -->
+    </classes>
+  </test> <!-- Test 5(failed) -->
+  <test thread-count="5" name="Test 6(failed)">
+    <classes>
+      <class name="EludeWeb.UserProfilePage">
+        <methods>
+          <include name="AccountDetails"/>
+          <include name="Check"/>
+          <include name="EnterParentsDetails"/>
+          <include name="Address"/>
+          <include name="EnterName"/>
+          <include name="Closed"/>
+          <include name="WorkingProfile"/>
+          <include name="Calendar"/>
+          <include name="SetStatusMarried"/>
+          <include name="SetStatusSingle"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- EludeWeb.UserProfilePage -->
+    </classes>
+  </test> <!-- Test 6(failed) -->
+</suite> <!-- Failed suite [Test suite] -->
